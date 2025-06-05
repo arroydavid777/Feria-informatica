@@ -24,11 +24,11 @@
         <header>
             <!-- place navbar here -->
              <nav
-                class="navbar navbar-expand-lg navbar-light"
+                class="navbar bg-dark border-bottom border-body navbar-expand-lg navbar-light"
                 style="
-                    background-color: rgba(0, 1, 80, 0.671)
                     
-                "
+                    color: white;
+                " data-bs-theme="dark"
              >
                 <a class="navbar-brand" href="index.html"><img src="img/favicon_io/favicon.ico" alt="logo" width="50px"></a>
                 <button
@@ -83,13 +83,45 @@
             </nav>
              
         </header>
-        <main>
-            <div class="informacion">
-                <h1>¿Quieres viajar en el tiempo?</h1>
-                <p>Los videojuego retros son los que </p>
-                <img src="img/Continentes_Wikipedia.svg.png" alt="" class="contientes">
-            </div>
-        </main>
+        <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQaHbgXKGd9R1yPOEiSpV0jQlgZ9MtIL6w4ynMJ8sC2nKgMN9bQFdaUYqyZuyk9ptQD67FU1bGWP3kAqBVwuSl37BTXO_ZkG8i7ek-p8Sws3QbhdE-Tboh4YpPgwCUnuFoYUnTw1qVHqIAmO-ZW5NL0PL.jpg?r=027" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+                
         <footer>
             <!-- place footer here -->
         </footer>
